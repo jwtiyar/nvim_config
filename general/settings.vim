@@ -17,11 +17,6 @@ set tabstop=4
 set shiftwidth=4
 set cinkeys-=:
 
-
-" recommended by coc
-set nobackup
-set nowritebackup
-
 " Enable the mouse
 set mouse=a
 
