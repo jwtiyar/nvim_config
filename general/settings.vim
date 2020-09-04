@@ -18,4 +18,5 @@ set cinkeys-=:
 " Enable the mouse
 set mouse=a
 
+set autochdir
 set clipboard=unnamedplus
