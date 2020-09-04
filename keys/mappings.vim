@@ -4,6 +4,9 @@ nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-h>    :vertical resize +2<CR>
 nnoremap <M-l>    :vertical resize -2<CR>
 
+" Redraw the screen and clear any search terms
+noremap <silent> <c-n> :nohls<cr><c-l>
+
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
