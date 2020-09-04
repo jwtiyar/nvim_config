@@ -7,6 +7,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'octol/vim-cpp-enhanced-highlight'
     Plug 'ryanoasis/vim-devicons'
     Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-unimpaired'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
 call plug#end()
