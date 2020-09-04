@@ -8,6 +8,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-unimpaired'
+    Plug 'mhinz/vim-startify'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
 call plug#end()
