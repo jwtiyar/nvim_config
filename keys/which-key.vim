@@ -27,7 +27,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 " Single mappings
 let g:which_key_map['n'] = [ ':NERDTreeToggle'    , 'nerdtree' ]
 let g:which_key_map['S'] = [ ':Startify'          , 'start screen' ]
-let g:which_key_map['q'] = [ ':qa!'               , 'quit without saving']
+let g:which_key_map['q'] = [ ':qa!'               , 'quit (no save)']
 
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
