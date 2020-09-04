@@ -55,7 +55,7 @@
     space (leader key).
 
 -- -- 
-# Plugins Installed
+# Plugins Included
 [Gruvbox](https://github.com/morhetz/gruvbox)  
 [Startify](https://github.com/mhinz/vim-startify)  
 [Nerdtree](https://github.com/preservim/nerdtree)  
