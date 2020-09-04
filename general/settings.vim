@@ -1,5 +1,3 @@
-let g:mapleader = "\<space>"
-
 syntax enable
 set nowrap
 set noswapfile
