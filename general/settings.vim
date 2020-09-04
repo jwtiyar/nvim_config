@@ -9,7 +9,7 @@ set splitright
 set noshowmode
 
 set updatetime=300
-set timeoutlen=100
+set timeoutlen=200
 
 " Indent
 set expandtab
