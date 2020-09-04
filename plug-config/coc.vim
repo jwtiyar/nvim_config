@@ -62,16 +62,16 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Formatting selected code.
-nnoremap <silent> <leader>f :call CocActionAsync('format')<CR>
+nnoremap <silent> gf :call CocActionAsync('format')<CR>
 
 " Apply AutoFix to problem on the current line.
-nnoremap <silent> <leader>a :call CocActionAsync('doQuickfix')<CR>
+nnoremap <silent> ga :call CocActionAsync('doQuickfix')<CR>
 
 " Rename current symbol.
-nnoremap <silent> <leader>r :call CocActionAsync('rename')<CR>
+nnoremap <silent> gr :call CocActionAsync('rename')<CR>
 
 " Jump Definiation.
-nnoremap <silent> <leader>d :call CocActionAsync('jumpDefinition')<CR>
+nnoremap <silent> gd :call CocActionAsync('jumpDefinition')<CR>
 
 augroup mygroup
   autocmd!
