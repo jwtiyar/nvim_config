@@ -56,14 +56,14 @@
 
 -- -- 
 # Plugins Installed
-    https://github.com/morhetz/gruvbox/
-    https://github.com/mhinz/vim-startify/
-    https://github.com/preservim/nerdtree/
-    https://github.com/vim-airline/vim-airline/
-    https://github.com/jiangmiao/auto-pairs/
-    https://github.com/octol/vim-cpp-enhanced-highlight/
-    https://github.com/vim-signify/
-    https://github.com/vim-unimpaired
-    https://github.com/vim-which-key/
-    https://github.com/vim-devicons/
-    https://github.com/neoclide/coc.nvim/
+    [Gruvbox](https://github.com/morhetz/gruvbox)
+    [Startify](https://github.com/mhinz/vim-startify)
+    [Nerdtree](https://github.com/preservim/nerdtree)
+    [Airline](https://github.com/vim-airline/vim-airline)
+    [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
+    [Cpp Highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
+    [Signify](https://github.com/vim-signify)
+    [Unimpaired](https://github.com/vim-unimpaired)
+    [Which Key](https://github.com/vim-which-key)
+    [Devicons](https://github.com/vim-devicons)
+    [COC](https://github.com/neoclide/coc.nvim)
