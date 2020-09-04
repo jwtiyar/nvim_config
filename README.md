@@ -48,7 +48,7 @@
     alt + hjkl to resize window.
     ctrl + hjkl for window navigation.
     
-    ctrl + n to clear any search.
+    ctrl + n to redraw status bar.
     
     jk and kj for "ESC"
     
