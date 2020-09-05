@@ -44,6 +44,7 @@
     gd (go to definition)
     gr (rename symbol)
     gf (format current file)
+    K  (for documentation)
 
     alt + hjkl to resize window.
     ctrl + hjkl for window navigation.
