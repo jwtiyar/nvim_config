@@ -18,6 +18,8 @@
 ### Install dependency package
     pip install pynvim
 
+    nodejs
+
 ## Install config
     git clone https://github.com/sauravj7/nvim_config ~/.config/nvim
 
@@ -34,9 +36,13 @@
 
 ### Install all of your plugins (restart neovim after this step)
     :PlugInstall
+
+Once all the plugins are installed the error will be resolved.
     
-### Install coc extensions you like
-    :CocInstall coc-clangd coc-json coc-java coc-cmake
+### Install coc extensions as you like
+    :CocInstall coc-clangd coc-json coc-java coc-cmake coc-python
+![Full list of extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+
 
 -- --
 ## Custom Mappings
