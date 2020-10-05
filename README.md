@@ -24,7 +24,7 @@
 
     ## File nvim/init.vim
 
-    change ~/.config to ~/AppData/Local
+    change all ~/.config to ~/AppData/Local
 
     # For ex
     change 'source ~/.config/nvim/general/settings.vim'
