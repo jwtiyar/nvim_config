@@ -1,51 +1,54 @@
-# nvim_config
+# nvim config
 
-# Screen
+## Screen
+
 ![nvim](https://user-images.githubusercontent.com/68990594/92236319-d1493480-eed2-11ea-9585-a224386fd5db.png)
 
--- --
 ## Install Neovim
-### Mac
-    brew install neovim
 
-### Ubuntu
-    sudo apt install neovim
+    https://github.com/neovim/neovim/wiki/Installing-Neovim
 
-### Arch
-    sudo pacman -S neovim
+## Install dependency package
 
-
-### Install dependency package
     pip install pynvim
-
     nodejs
 
 ## Install config
+
     git clone https://github.com/sauravj7/nvim_config ~/.config/nvim
 
-## Install powerline fonts
-    git clone https://github.com/powerline/fonts.git --depth=1
-    cd fonts
-    ./install.sh
-    cd ..
-    rm -rf fonts
+    # For Windows
+    git clone https://github.com/sauravj7/nvim_config ~/AppData/Local/nvim
+
+## Edit Config (only for Windows)
+
+    ## File nvim/init.vim
+
+    change ~/.config to ~/AppData/Local
+
+    # For ex
+    change 'source ~/.config/nvim/general/settings.vim'
+    to     'source ~/AppData/Local/nvim/general/settings.vim'
+
+
+    ## File nvim/vim-plug/plugins.vim
+
+    change 'call plug#begin('~/.config/nvim/autoload/plugged')'
+    to     'call plug#begin('~/AppData/Local/nvim/autoload/plugged')'
 
 ## Install Plugins
-### Open nvim
+
+    # Open Neovim
     nvim
 
-### Install all of your plugins (restart neovim after this step)
-    :PlugInstall
+    # Install all of your plugins (restart neovim after this step)
+    :PlugInstall 
 
-Once all the plugins are installed the error will be resolved.
-    
-### Install coc extensions as you like
+    # Install coc extensions as you like [Full List of Extension](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
     :CocInstall coc-clangd coc-json coc-java coc-cmake coc-python
-![Full list of extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
 
+## Custom Mapping
 
--- --
-## Custom Mappings
     gr (codefix)
     gd (go to definition)
     gr (rename symbol)
@@ -61,8 +64,8 @@ Once all the plugins are installed the error will be resolved.
     
     space (leader key).
 
--- -- 
-# Plugins Included
+## Plugins Included
+
 [Gruvbox](https://github.com/morhetz/gruvbox)  
 [Startify](https://github.com/mhinz/vim-startify)  
 [Nerdtree](https://github.com/preservim/nerdtree)  
