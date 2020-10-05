@@ -44,8 +44,10 @@
     # Install all of your plugins (restart neovim after this step)
     :PlugInstall 
 
-    # Install coc extensions as you like [Full List of Extension](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+    # Install coc extensions as you like 
     :CocInstall coc-clangd coc-json coc-java coc-cmake coc-python
+
+[Full List of Extension](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
 
 ## Custom Mapping
 
