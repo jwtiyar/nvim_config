@@ -21,7 +21,7 @@
 
     git clone https://github.com/sauravj7/nvim_config ~/.config/nvim
 
-    # For Windows (Use Powershell)
+    # For Windows
     git clone https://github.com/sauravj7/nvim_config  C:\Users\[USER NAME]\AppData\Local\nvim
 
 ## Edit Config (only for Windows)
