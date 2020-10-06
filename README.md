@@ -4,6 +4,10 @@
 
 ![nvim](https://user-images.githubusercontent.com/68990594/92236319-d1493480-eed2-11ea-9585-a224386fd5db.png)
 
+## Screen Windows
+
+![nvim-windows](https://user-images.githubusercontent.com/68990594/95161346-8c116e80-07c0-11eb-8bae-bba86699f103.png)
+
 ## Install Neovim
 
     https://github.com/neovim/neovim/wiki/Installing-Neovim
