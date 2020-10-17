@@ -6,7 +6,7 @@
 
 ## Screen Windows
 
-![nvim-windows](https://user-images.githubusercontent.com/68990594/95161346-8c116e80-07c0-11eb-8bae-bba86699f103.png)
+![nvim-win](https://user-images.githubusercontent.com/68990594/96336615-b6a3d700-109e-11eb-930a-b8750ed7c2ac.png)
 
 ## Install Neovim
 
