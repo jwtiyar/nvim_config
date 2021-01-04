@@ -44,6 +44,11 @@
     change 'call plug#begin('~/.config/nvim/autoload/plugged')'
     to     'call plug#begin('~/AppData/Local/nvim/autoload/plugged')'
 
+
+    ## File plug-config/start-screen.vim
+
+    change line 3 'let g:startify_session_dir = '~/.config/nvim/session''
+    to            'let g:startify_session_dir = '~/AppData/Local/nvim/session''
 ## Install Plugins
 
     # Open Neovim
