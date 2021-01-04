@@ -1,6 +1,10 @@
 # nvim config
 
-## Screen
+## Screen Android
+
+![nvim-android](https://user-images.githubusercontent.com/68990594/103571746-7449a380-4ef1-11eb-9e62-cae34c3e6704.jpg)
+
+## Screen Linux
 
 ![nvim](https://user-images.githubusercontent.com/68990594/92236319-d1493480-eed2-11ea-9585-a224386fd5db.png)
 
