@@ -34,7 +34,7 @@
 
     change all ~/.config to ~/AppData/Local
 
-    # For ex
+    # For example
     change source ~/.config/nvim/general/settings.vim
     to     source ~/AppData/Local/nvim/general/settings.vim
 
