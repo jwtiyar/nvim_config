@@ -35,20 +35,21 @@
     change all ~/.config to ~/AppData/Local
 
     # For ex
-    change 'source ~/.config/nvim/general/settings.vim'
-    to     'source ~/AppData/Local/nvim/general/settings.vim'
+    change source ~/.config/nvim/general/settings.vim
+    to     source ~/AppData/Local/nvim/general/settings.vim
 
 
     ## File nvim/vim-plug/plugins.vim
 
-    change 'call plug#begin('~/.config/nvim/autoload/plugged')'
-    to     'call plug#begin('~/AppData/Local/nvim/autoload/plugged')'
+    change call plug#begin('~/.config/nvim/autoload/plugged')
+    to     call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 
 
     ## File plug-config/start-screen.vim
 
-    change line 3 'let g:startify_session_dir = '~/.config/nvim/session''
-    to            'let g:startify_session_dir = '~/AppData/Local/nvim/session''
+    change line 3 let g:startify_session_dir = '~/.config/nvim/session'
+    to            let g:startify_session_dir = '~/AppData/Local/nvim/session'
+
 ## Install Plugins
 
     # Open Neovim
